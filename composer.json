@@ -18,7 +18,8 @@
         }
     },
     "require": {
-        "magento/magento-cloud-metapackage": ">=2.3.4 <2.3.5"
+        "magento/magento-cloud-metapackage": ">=2.3.4 <2.3.5",
+        "magento/magento2-functional-testing-framework": "^2.6"
     },
     "suggest": {
         "ext-pcntl": "Need for run processes in parallel mode"
