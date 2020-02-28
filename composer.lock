@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "153bc8f3fbb1bc3b568344af5499a673",
+    "content-hash": "0073ff88d963c550561be14a7324f276",
     "packages": [
         {
             "name": "allure-framework/allure-codeception",
@@ -335,16 +335,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.21",
+            "version": "3.133.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3501468a7ef894703141d1c4d68caa3b914cbd96"
+                "reference": "726426e1514be5220d55ecf02eb1f938a3b4a105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3501468a7ef894703141d1c4d68caa3b914cbd96",
-                "reference": "3501468a7ef894703141d1c4d68caa3b914cbd96",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/726426e1514be5220d55ecf02eb1f938a3b4a105",
+                "reference": "726426e1514be5220d55ecf02eb1f938a3b4a105",
                 "shasum": ""
             },
             "require": {
@@ -415,7 +415,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-02-24T19:15:07+00:00"
+            "time": "2020-02-27T19:13:45+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -520,16 +520,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.6.0",
+            "version": "v4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "ab0a02ea14893860bca00f225f5621d351a3ad07"
+                "reference": "25bdcaf37898b4a939fa3031d5d753ced97e4759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/ab0a02ea14893860bca00f225f5621d351a3ad07",
-                "reference": "ab0a02ea14893860bca00f225f5621d351a3ad07",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/25bdcaf37898b4a939fa3031d5d753ced97e4759",
+                "reference": "25bdcaf37898b4a939fa3031d5d753ced97e4759",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +575,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2019-01-16T14:22:17+00:00"
+            "time": "2020-02-27T11:29:57+00:00"
         },
         {
             "name": "braintree/braintree_php",
@@ -4643,11 +4643,11 @@
         },
         {
             "name": "magento/magento-cloud-components",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-components/magento-magento-cloud-components-1.0.2.0.zip",
-                "shasum": "fea7619a6d23bae0a6b562434aff4b4d0f0feacd"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-components/magento-magento-cloud-components-1.0.3.0.zip",
+                "shasum": "6453f3ee1cac29caa3be4318ee3fbe49ec91b5b1"
             },
             "require": {
                 "ext-json": "*",
@@ -4655,7 +4655,6 @@
             },
             "require-dev": {
                 "phpmd/phpmd": "@stable",
-                "phpstan/phpstan": "^0.11",
                 "phpunit/phpunit": "^6.2",
                 "squizlabs/php_codesniffer": "^3.0"
             },
@@ -4775,23 +4774,21 @@
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.1.0.zip",
-                "shasum": "ce2b71cbfce34c6ef08ca96b6ce7be11b2adf65b"
+                "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.2.0.zip",
+                "shasum": "30ff28deb83d724026f6aae2a5ef1d544127ecf9"
             },
             "require": {
                 "composer/composer": "@stable",
+                "composer/semver": "^1.5",
                 "ext-json": "*",
                 "php": "^7.0",
                 "symfony/config": "^3.3||^4.4",
-                "symfony/console": "^2.8||^4.0",
+                "symfony/console": "^2.6||^4.0",
                 "symfony/dependency-injection": "^3.3||^4.3",
                 "symfony/process": "^2.1||^4.1"
-            },
-            "conflict": {
-                "symfony/process": "^4.2"
             },
             "require-dev": {
                 "phpmd/phpmd": "@stable",
@@ -5614,16 +5611,16 @@
         },
         {
             "name": "magento/magento2-functional-testing-framework",
-            "version": "2.6.2",
+            "version": "2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento2-functional-testing-framework.git",
-                "reference": "8b332582751a830b3a6eafe1b09ac3b403e9a20e"
+                "reference": "f1d9f9ede3fea875427f5d1b012561da1dca6206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/8b332582751a830b3a6eafe1b09ac3b403e9a20e",
-                "reference": "8b332582751a830b3a6eafe1b09ac3b403e9a20e",
+                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/f1d9f9ede3fea875427f5d1b012561da1dca6206",
+                "reference": "f1d9f9ede3fea875427f5d1b012561da1dca6206",
                 "shasum": ""
             },
             "require": {
@@ -5695,7 +5692,7 @@
                 "magento",
                 "testing"
             ],
-            "time": "2020-02-13T21:29:32+00:00"
+            "time": "2020-02-27T19:56:31+00:00"
         },
         {
             "name": "magento/module-admin-analytics",
@@ -18131,16 +18128,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.0.0",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "a48807183a4b819072f26e347bbd0b5199a9d15f"
+                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/a48807183a4b819072f26e347bbd0b5199a9d15f",
-                "reference": "a48807183a4b819072f26e347bbd0b5199a9d15f",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
                 "shasum": ""
             },
             "require": {
@@ -18180,30 +18177,29 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-02-09T09:16:15+00:00"
+            "time": "2020-02-22T12:28:44+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9"
+                "reference": "7462d5f123dfc080dfdf26897032a6513644fc95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
-                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/7462d5f123dfc080dfdf26897032a6513644fc95",
+                "reference": "7462d5f123dfc080dfdf26897032a6513644fc95",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.2",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
-                "ext-tokenizer": "^7.1",
-                "mockery/mockery": "~1",
-                "phpunit/phpunit": "^7.0"
+                "ext-tokenizer": "^7.2",
+                "mockery/mockery": "~1"
             },
             "type": "library",
             "extra": {
@@ -18227,7 +18223,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2019-08-22T18:11:29+00:00"
+            "time": "2020-02-18T18:59:58+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -24472,6 +24468,8 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.2 <7.3"
+    },
     "platform-dev": []
 }

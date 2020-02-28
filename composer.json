@@ -18,6 +18,7 @@
         }
     },
     "require": {
+        "php": ">=7.2 <7.3",
         "magento/magento-cloud-metapackage": ">=2.3.4 <2.3.5",
         "magento/magento2-functional-testing-framework": "^2.6"
     },
