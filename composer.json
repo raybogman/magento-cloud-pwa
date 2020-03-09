@@ -16,64 +16,10 @@
         "upward-connector": {
             "type": "vcs",
             "url": "https://github.com/magento-research/magento2-upward-connector"
-        },
-        "catalog-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/module-catalog-sample-data-venia"
-        },
-        "configurable-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/module-configurable-sample-data-venia"
-        },
-        "customer-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/module-customer-sample-data-venia"
-        },
-        "tax-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/module-tax-sample-data-venia"
-        },
-        "sales-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/module-sales-sample-data-venia"
-        },
-        "media-venia": {
-            "type": "vcs",
-            "url": "https://github.com/PMET-public/sample-data-media-venia"
-        },
-        "module-catalog-sample-data-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/module-catalog-sample-data-venia.git"
-        },
-        "module-configurable-sample-data-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git"
-        },
-        "module-customer-sample-data-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/module-customer-sample-data-venia.git"
-        },
-        "module-sales-sample-data-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/module-sales-sample-data-venia.git"
-        },
-        "module-tax-sample-data-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/module-tax-sample-data-venia.git"
-        },
-        "sample-data-media-venia": {
-            "type": "github",
-            "url": "git@github.com:PMET-public/sample-data-media-venia.git"
         }
     },
     "require": {
         "magento/magento-cloud-metapackage": ">=2.3.4 <2.3.5",
-        "magento/module-catalog-sample-data-venia": "dev-master",
-        "magento/module-configurable-sample-data-venia": "dev-master",
-        "magento/module-customer-sample-data-venia": "dev-master",
-        "magento/module-tax-sample-data-venia": "dev-master",
-        "magento/module-sales-sample-data-venia": "dev-master",
-        "magento/sample-data-media-venia": "dev-master",
         "magento/module-upward-connector": "^1.1"
     },
     "suggest": {
