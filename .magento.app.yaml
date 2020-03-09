@@ -10,6 +10,10 @@ type: php:7.3
 build:
     flavor: composer
 
+dependencies:
+    nodejs:
+      yarn: "*"
+
 # Enable extensions required by Magento 2
 runtime:
     extensions:
@@ -78,6 +82,15 @@ hooks:
     # We run build hooks before your application has been packaged.
     build: |
         set -e
+
+        unset NPM_CONFIG_PREFIX
+        curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
+        export NVM_DIR="$HOME/.nvm"
+        [ -s "$NVM_DIR/nvm.sh"  ] && \. "$NVM_DIR/nvm.sh"
+        nvm install --lts=dubnium
+
+        yarn install
+
         php ./vendor/bin/ece-tools build:generate
         php ./vendor/bin/ece-tools build:transfer
     # We run deploy hook after your application has been deployed and started.
@@ -99,3 +112,8 @@ variables:
         CONFIG__DEFAULT__PAYPAL_ONBOARDING__MIDDLEMAN_DOMAIN: 'payment-broker.magento.com'
         CONFIG__STORES__DEFAULT__PAYMENT__BRAINTREE__CHANNEL: 'Magento_Enterprise_Cloud_BT'
         CONFIG__STORES__DEFAULT__PAYPAL__NOTATION_CODE: 'Magento_Enterprise_Cloud'
+        CONFIG__DEFAULT__WEB__UPWARD__PATH: '/app/node_modules/@magento/venia-concept/dist/upward.yml'
+        NODE_ENV: 'production'
+        MAGENTO_BACKEND_URL: 'https://www.my-url.com/'
+        USE_FASTLY: '0'
+        BRAINTREE_TOKEN: 'sandbox_8yrzsvtm_s2bg8fs563crhqzk'

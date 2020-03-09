@@ -1,0 +1,23 @@
+{
+  "name": "Magento Cloud + PWA",
+  "version": "1.0.0",
+  "description": "This repository contains a sample Magento Commerce (on-premise) version 2.3.4 instance for you to deploy in the cloud. You must have an active Magento Commerce Cloud user license to use the example in this repository.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@magento/venia-concept": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xkpilazn7fkkq@git.eu-3.magento.cloud:xkpilazn7fkkq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
